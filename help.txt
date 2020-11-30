@@ -1,0 +1,48 @@
+NPM Packages
+---------------
+babel-core
+express
+body-parser
+nodemon
+lodash
+react
+request (how to make http/https calls)
+async
+
+Features of express
+-------------------
+> express
+> express-generator -g
+
+1. Faster Application development
+2. Makes integration with databases easy
+3. Provides two templating engines (EJS and Jade)
+4. Simplifies configuration and customization of the Application
+5. Helps in building application of single-page, multi-page and hybrid types
+6. Defines an error handling middleware
+
+
+Routing Methods
+---------------
+GET
+POST
+PUT
+DELETE
+
+Templating Engines
+------------------
+EJS
+handlebars
+Jade
+
+
+Docker
+-------
+## Create a Dockerfile
+
+## build the image
+root> docker build -t hello-docker .
+
+## Once the build is ready, start running app
+root> docker run -it -p 3000:3000
+
